@@ -8,22 +8,48 @@
 </head>
 	<body>
 		<header>
-			<img src="assets/logo.svg" />
-			<nav>
-				<ul>
-					<li>Gatos</li>
-					<li>Perros</li>
-					<li>Acerca</li>
-				</ul>
-			</nav>
+			<div class="container">
+				<nav class="row between middle">
+					<div class="col-4">
+						<img src="assets/logo.svg" />
+					</div>
+					<div class="col-3 end">						
+						<ul class="row between">
+							<li class="col">
+								<a href="/gatos.html" class="layout_a">Gatos</a>
+							</li>
+							<li class="col">
+								<a href="/perros.html" class="layout_a">Perros</a>
+							</li>
+							<li class="col">
+								<a href="/acerca.html" class="layout_a">Acerca</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
 		</header>
 		<section class="home">
-			<h1>Aprende sobre las mascotas mas populares de internet</h1>
-			<a href="gatos.html" class="boton">Gatos</a>
-			<a href="perros.html" class="boton">Perros</a>
+			<div class="container">
+				<div class="row center">
+					<h1 class="col-10">Aprende sobre las mascotas mas populares de internet</h1>
+						<div class="col-3 boton">
+							<a href="gatos.html" class="boton_a">Gatos</a>
+						</div>
+						<div class="col-3 boton">
+							<a href="perros.html" class="boton_a">Perros</a>
+						</div>
+				</div>
+			</div>
 		</section>
 		<footer>
-			<a href="https://twitter.com/emiliojnp">Emilio Núñez</a> | 2016
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<a href="https://twitter.com/emiliojnp" target="_blank" class="layout_a">Emilio Núñez</a> | 2016
+					</div>
+				</div>
+			</div>
 		</footer>
 	</body>
 </html>

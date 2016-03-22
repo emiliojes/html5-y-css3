@@ -2,22 +2,22 @@
 
 header, footer{
 	background-color: #282828;
-	position: absolute;
+	position: fixed;
+	padding: 20px 0;
+	box-sizing: border-box;
 	width: 100%;
+	color: #C3C1C1;
+}
+.layout_a {
+	color: #C3C1C1;
+}
+header {
+	top: 0;
+}
+footer{
+	bottom: 0;
 }
 header img {
 	width: 200px;
 	display: block;
-}
-nav ul li{
-	color: #FFFFFF;
-	display: inline;
-	font-weight: 400;
-}
-footer, footer a {
-	color: #FFFFFF;
-}
-footer {
-	padding: 20px;
-	box-sizing: border-box;
 }
