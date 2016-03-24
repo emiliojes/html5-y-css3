@@ -1,8 +1,8 @@
-/*  Formas */
+/* Formas */
+
 .boton {
 	background-color: #FFB400;
-	padding: 20px;
-	
+	padding: 20px;	
 	border-bottom: 6px solid #E49100;
 	border-radius: 5px;
 	-webkit-border-radius: 5px;
@@ -12,7 +12,7 @@
 .boton:hover {
 	background-color: #E49100;
 	border-top: 6px solid #ffb400;
-	border-bottom: 
+	border-bottom: 0 none;
 }
 .boton:last-of-type{
 	margin-right: 0;
